@@ -1,10 +1,11 @@
 import React from 'react';
 import {createRoot } from 'react-dom/client';
 import './index.css';
-// import LoginRegister from './LoginRegister'; 
+import LoginRegister from './LoginRegister'; 
 import reportWebVitals from './reportWebVitals';
-//  import Register from './Register'
+ import Register from './Register'
  import Login from './Login'
+ import Login1 from './login1'
 
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -17,8 +18,10 @@ import reportWebVitals from './reportWebVitals';
 // );
 const container = document.getElementById('root');
 const root = createRoot(container);
-// root.render(<LoginRegister />);
-root.render(<Login />);
+root.render(<LoginRegister />);
+// root.render(<Login />);
+// root.render(<Login1 />);
+
 
 
 
