@@ -193,8 +193,6 @@ function Register() {
                 borderRadius: 1,
               }}
             >
-            <span>{formErrors.firstname}</span>
-
               <TextField
                 sx={{
                   borderRadius: 1,
@@ -351,11 +349,7 @@ function Register() {
               />
 
             </Box>
-
-            <Typography variant="h7" component="legend" sx={{ color: "black" , textAlign: 'right'}}>
-            {formErrors.pincode}
-            </Typography>
-            {/* <span >{formErrors.pincode}</span> */}
+            <span>{formErrors.pincode}</span>
 
             {/* //Register Button */}
             <Box
@@ -368,7 +362,6 @@ function Register() {
                 borderRadius: 1,
               }}
             >
-
               <Button
                 variant="filled"
                 margin="dense"

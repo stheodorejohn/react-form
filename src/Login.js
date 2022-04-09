@@ -53,6 +53,7 @@ class Login extends React.Component {
 
 
     this.setState({ errors });
+    console.log(this.state.errors.username);
     return isValid;
   }
 
@@ -186,11 +187,11 @@ class Login extends React.Component {
           </div>
         </form>
 
-        {/* {Object.keys(this.state.errors).map((key) => {
+        {Object.keys(this.state.errors).map((key) => {
           return <div key={key}> {this.state.errors[key]}
           </div>
         })
-        } */}
+        }
 
 
 
